@@ -1,0 +1,309 @@
+@media screen and (min-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,
+    body {
+        background: conic-gradient(from 15deg at 43% 100%, rgb(73, 80, 89) 20%, rgb(255, 255, 255) 50%);
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        margin-top: 0px !important;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    .bg-img {
+        background-image: url(/IMG/bgimg2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    #logo {
+        height: 80px;
+    }
+    .navbar-text {
+        color: white;
+    }
+    .navTop {
+        margin-left: 12%;
+    }
+    .sidenav {
+        display: none;
+    }
+    nav {
+        background-color: rgba(129, 129, 129, 0.39);
+        margin-bottom: 20%;
+    }
+    ul a:hover {
+        color: #e95849 !important;
+    }
+    .nav-link>a:focus {
+        color: #e95849 !important;
+    }
+    li>a:after {
+        content: '';
+        display: block;
+        height: 1.5px;
+        background: #e95849;
+        transform: scaleX(0);
+        transition: transform .9s;
+    }
+    li>a:hover:after {
+        transform: scaleX(1.1);
+        transition: transform .9s;
+    }
+    .sidenav {
+        display: none;
+    }
+    .zoom {
+        transition: transform 0.2s ease;
+    }
+    .zoom:hover {
+        transform: scale(1.1);
+    }
+    .Pres {
+        background-color: rgba(61, 60, 60, 0.589);
+        font-size: 1.2em;
+        margin-top: 45%;
+        padding: 4%;
+    }
+    #Par {
+        scroll-margin-top: 2em;
+        margin: 10% auto 5% auto;
+        padding: 0.2em 1em;
+        width: fit-content;
+        font-size: 3.5em;
+        color: darksalmon;
+    }
+    .FormMd {
+        display: none;
+    }
+    .FormMobil {
+        display: none;
+    }
+    .Formation {
+        background-color: #acb7ae;
+    }
+    #Comp {
+        scroll-margin-top: 10em;
+        margin: 12% auto 10% auto;
+    }
+    .CompMd {
+        display: none;
+    }
+    .CompSm {
+        display: none;
+    }
+    .img-thumbnail {
+        width: 8em;
+        height: 8em;
+    }
+    #Proj {
+        scroll-margin-top: 2em;
+        margin: 20% auto 10% auto;
+        padding: 0.2em 1em;
+        width: fit-content;
+        font-size: 3.5em;
+        color: darksalmon;
+    }
+    .mask:hover {
+        background: linear-gradient( 45deg, hsla(168, 85%, 52%, 0.5), hsla(263, 88%, 45%, 0.5) 100%);
+    }
+    .card {
+        transition: transform 0.2s ease;
+        box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+        border-radius: 10px;
+        background-color: rgba(245, 222, 179, 0);
+    }
+    .card:hover {
+        transform: scale(1.1);
+    }
+    footer {
+        margin-top: 20%;
+        margin-bottom: 0;
+    }
+    .FooterMd {
+        display: none;
+    }
+    .FooterSm {
+        display: none;
+    }
+    footer>ul {
+        text-align: center;
+    }
+    .LogoRS {
+        height: 80px;
+        width: 80px;
+    }
+    .LogoLI {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 999px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,
+    body {
+        background: conic-gradient(from 15deg at 43% 100%, rgb(73, 80, 89) 20%, rgb(255, 255, 255) 50%);
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        margin-top: 0px !important;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    .bg-img {
+        background-image: url(/IMG/bgimg2.jpg);
+        background-size: 100vw 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    #logo {
+        width: 70px;
+        height: 70px;
+    }
+    .navbar-text {
+        position: absolute;
+        margin-left: 8%;
+        margin-right: 50%;
+        font-size: 16px;
+    }
+    .sidenav {
+        display: none;
+    }
+    .Pres {
+        background-color: rgba(61, 60, 60, 0.589);
+        font-size: 1em;
+        margin-top: 40%;
+        padding: 4%;
+    }
+    #Par {
+        scroll-margin-top: 2em;
+        margin: 30% auto 10% auto;
+        padding: 0.1em 0.8em 0.1em 0.8em;
+        width: fit-content;
+        font-size: 2.5em;
+        color: darksalmon;
+    }
+    .FormMobil {
+        display: none;
+    }
+    .Formation {
+        background-color: #acb7ae;
+    }
+    .Formation h3 {
+        font-size: 1.5em;
+    }
+    .Formation p,
+    section {
+        font-size: 1em;
+    }
+    #Comp {
+        scroll-margin-top: 10em;
+        margin: 60% auto 10% auto;
+    }
+    .CompSm {
+        display: none;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+    .img-thumbnail {
+        width: 5em;
+        height: 5em;
+    }
+    #Proj {
+        scroll-margin-top: 2em;
+        margin: 60% auto 10% auto;
+        padding: 0.1em 0.8em 0.1em 0.8em;
+        width: fit-content;
+        font-size: 2.5em;
+        color: darksalmon;
+    }
+    h4 {
+        font-size: 1.5em;
+        color: #c6303e;
+    }
+    .Site {
+        background-color: #acb7ae;
+    }
+    .Site p {
+        font-size: 0.8em;
+        margin-bottom: 0;
+    }
+    .mask:hover {
+        background: linear-gradient( 45deg, hsla(168, 85%, 52%, 0.5), hsla(263, 88%, 45%, 0.5) 100%);
+    }
+    .card {
+        transition: transform 0.2s ease;
+        box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+        border-radius: 10px;
+        background-color: #acb7ae;
+    }
+    .card:hover {
+        transform: scale(1.1);
+    }
+    .ImgProj { 
+        height: 90%;
+        /*margin-top: 5%;*/
+    }
+    footer {
+        margin-top: 30%;
+        margin-bottom: 0;
+    }
+    .FooterLg {
+        display: none;
+    }
+    .FooterSm {
+        display: none;
+    }
+    .FooterMd {
+        display: block;
+    }
+    .nm-item {
+        list-style: none;
+        font-size: 1em;
+    }
+    ul a:hover {
+        color: #e95849 !important;
+        text-decoration: none;
+    }
+    .nm-link>a:focus {
+        color: #e95849 !important;
+    }
+    .nm-item>a:after {
+        content: '';
+        display: block;
+        height: 1.5px;
+        background: #e95849;
+        transform: scaleX(0);
+        transition: transform .9s;
+    }
+    .nm-item>a:hover:after {
+        transform: scaleX(1.1);
+        transition: transform .9s;
+    }
+    footer hr {
+        margin-bottom: 0;
+    }
+    .LogoRS {
+        height: 80px;
+        width: 80px;
+    }
+    .LogoLI {
+        height: 100px;
+        width: 100px;
+    }
+    #Credit {
+        font-size: 0.8em;
+    }
+}
