@@ -16,7 +16,7 @@
         scroll-behavior: smooth;
     }
     .bg-img {
-        background-image: url(../IMG/bgimg2.jpg);
+        background-image: url(../IMG/bgimg2.png);
         background-size: 100vw 100%;
         background-repeat: no-repeat;
         height: 50vw;
@@ -227,7 +227,7 @@
         scroll-behavior: smooth;
     }
     .bg-img {
-        background-image: url(../IMG/bgimg2.jpg);
+        background-image: url(../IMG/bgimg2.png);
         background-size: 100vw 100%;
         background-repeat: no-repeat;
         height: 25%;
@@ -433,7 +433,7 @@
         scroll-behavior: smooth;
     }
     .bg-img {
-        background-image: url(../IMG/bgimg2.jpg);
+        background-image: url(../IMG/bgimg2.png);
         background-size: 100vw 100%;
         background-repeat: no-repeat;
         height: 90vw;
