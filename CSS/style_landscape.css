@@ -16,7 +16,7 @@
         scroll-behavior: smooth;
     }
     .bg-img {
-        background-image: url(../IMG/bgimg2.png);
+        background-image: url(/IMG/bgimg2.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         height: 100vh;
@@ -30,7 +30,7 @@
     .navTop {
         margin-left: 12%;
     }
-    .sidenav {
+    .mobile-nav {
         display: none;
     }
     nav {
@@ -54,9 +54,6 @@
     li>a:hover:after {
         transform: scaleX(1.1);
         transition: transform .9s;
-    }
-    .sidenav {
-        display: none;
     }
     .zoom {
         transition: transform 0.2s ease;
@@ -162,7 +159,7 @@
         scroll-behavior: smooth;
     }
     .bg-img {
-        background-image: url(../IMG/bgimg2.png);
+        background-image: url(/IMG/bgimg2.jpg);
         background-size: 100vw 100%;
         background-repeat: no-repeat;
         height: 100%;
@@ -177,7 +174,7 @@
         margin-right: 50%;
         font-size: 16px;
     }
-    .sidenav {
+    .mobile-nav {
         display: none;
     }
     .Pres {
