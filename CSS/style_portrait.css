@@ -16,7 +16,7 @@
         scroll-behavior: smooth;
     }
     .bg-img {
-        background-image: url(../IMG/bgimg2.png);
+        background-image: url(/IMG/bgimg2.jpg);
         background-size: 100vw 100%;
         background-repeat: no-repeat;
         height: 50vw;
@@ -28,77 +28,29 @@
     .navbar-nav {
         display: none;
     }
-    .sidenav {
+    .mobile-nav{
         display: block;
-        height: 100vh;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: -900px;
-        background-color: #2a2e33;
-        padding-top: 60px;
-        transition: left 0.5s ease;
     }
-    .sidenav ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        margin: 20% auto auto auto;
-        text-align: center;
+    .mobile-nav {
+      z-index: 1;
+      background: #F1F1F1;
+      border-radius: 8px;
+      position: fixed;
+      bottom: 0;
+      margin-left: 0;
+      height: 65px;
+      width: 90%;
+      margin-bottom: 15%;
+      display: flex; 
+      justify-content: space-around;
     }
-    /* Sidenav menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: color 0.3s ease;
+    .bloc-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    .sidenav a:hover {
-        color: #111;
-        color: tomato;
-    }
-    /* Active class */
-    .sidenav.active {
-        right: 0;
-    }
-    .burger-icon span{ 
-        display: block;
-        width: 30px;
-        height: 4px;
-        background-color: black;
-        border-radius: 2px;
-        margin: 6px 0;
-        margin-left: 500%;
-    }
-    ul a:hover {
-        color: #e95849 !important;
-    }
-    .nav-link>a:focus {
-        color: #e95849 !important;
-    }
-    li>a:after {
-        content: '';
-        display: block;
-        height: 1.5px;
-        background: #e95849;
-        transform: scaleX(0);
-        transition: transform .9s;
-    }
-    li>a:hover:after {
-        transform: scaleX(1.1);
-        transition: transform .9s;
-    }
-    .sidenav {
-        display: none;
-    }
-    .zoom {
-        transition: transform 0.2s ease;
-    }
-    .zoom:hover {
-        transform: scale(1.1);
+    .bloc-icon img {
+      width: 30px;
     }
     .Pres {
         background-color: rgba(61, 60, 60, 0.589);
@@ -227,7 +179,7 @@
         scroll-behavior: smooth;
     }
     .bg-img {
-        background-image: url(../IMG/bgimg2.png);
+        background-image: url(/IMG/bgimg2.jpg);
         background-size: 100vw 100%;
         background-repeat: no-repeat;
         height: 25%;
@@ -243,47 +195,28 @@
     .navbar-nav {
         display: none;
     }
-    .sidenav {
-        display: block;
-        height: 100vh;
-        width: 100vw;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: 900px;
-        background-color: #2a2e33;
-        padding-top: 60px;
-        transition: left 0.5s ease;
+    .mobile-nav {
     }
-    .sidenav ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 35% auto auto auto;
-        text-align: center;
+    .mobile-nav {
+      z-index: 1;
+      background: #F1F1F1;
+      border-radius: 8px;
+      position: fixed;
+      bottom: 0;
+      margin-left: 0;
+      height: 65px;
+      width: 90%;
+      margin-bottom: 15%;
+      display: flex; 
+      justify-content: space-around;
     }
-    /* Sidenav menu links */
-    .sidenav a {
-        padding: 8px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: color 0.3s ease;
+    .bloc-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    .sidenav a:hover {
-        color: tomato;
-    }
-    /* Active class */
-    .sidenav.active {
-        right: 0;
-    }
-    .burger-icon span{ 
-        display: block;
-        width: 30px;
-        height: 4px;
-        background-color: black;
-        border-radius: 2px;
-        margin: 6px 0 6px 400px;
+    .bloc-icon img {
+      width: 30px;
     }
     .Pres {
         background-color: rgba(61, 60, 60, 0.589);
@@ -433,67 +366,44 @@
         scroll-behavior: smooth;
     }
     .bg-img {
-        background-image: url(../IMG/bgimg2.png);
+        background-image: url(/IMG/bgimg2.jpg);
         background-size: 100vw 100%;
         background-repeat: no-repeat;
         height: 90vw;
+    }
+    #Header {
+        margin-left: 25%;
     }
     #logo {
         width: 50px;
     }
     .navbar-text {
         position: absolute;
-        margin-left: 15%;
         font-size: 16px;
     }
     .navbar-nav {
         display: none;
     }
-    .sidenav {
-        display: block;
-        height: 100vh;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: -2500px;
-        background-color: #2a2e33;
-        padding-top: 60px;
-        transition: left 0.5s ease;
+    .mobile-nav {
+      z-index: 1;
+      background: #F1F1F1;
+      border-radius: 8px;
+      position: fixed;
+      bottom: 0;
+      margin-left: 0;
+      height: 65px;
+      width: 90%;
+      margin-bottom: 15%;
+      display: flex; 
+      justify-content: space-around;
     }
-    .sidenav ul {        
-        display: block;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        margin: 35% auto auto auto;
-        text-align: center;
+    .bloc-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    /* Sidenav menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: color 0.3s ease;
-    }
-    .sidenav a:hover {
-        color: #111;
-        color: tomato;
-    }
-    /* Active class */
-    .sidenav.active {
-        right: 0;
-    }
-    .burger-icon span {
-        display: block;
-        width: 30px;
-        height: 4px;
-        background-color: black;
-        border-radius: 2px;
-        margin: 6px 0;
-        margin-right: 8%;
+    .bloc-icon img {
+      width: 30px;
     }
     .Pres {
         background-color: rgba(61, 60, 60, 0.589);
