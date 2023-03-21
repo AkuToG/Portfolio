@@ -30,7 +30,7 @@
     .navTop {
         margin-left: 12%;
     }
-    .mobile-nav {
+    .sidenav {
         display: none;
     }
     nav {
@@ -54,6 +54,9 @@
     li>a:hover:after {
         transform: scaleX(1.1);
         transition: transform .9s;
+    }
+    .sidenav {
+        display: none;
     }
     .zoom {
         transition: transform 0.2s ease;
@@ -174,7 +177,7 @@
         margin-right: 50%;
         font-size: 16px;
     }
-    .mobile-nav {
+    .sidenav {
         display: none;
     }
     .Pres {
